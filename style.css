@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to left top,rgb(232 5 79),rgb(237 66 66));
+}
+.inner-box{
+margin: 0 auto;
+width: 360px;
+height:470px;
+position: relative;
+top: 17%;
+background-color: aliceblue;
+border-radius: 5px;
+box-shadow:4px 4px 10px #362122;
+opacity: 0.9;
+z-index: 2;
+}
+.signup-header {
+        text-align: center;
+        margin: 7px;
+        padding: 13px;
+        
+}
+.signup-header h1{
+margin: 2px;
+
+}
+.signup-header p{
+    margin-top: 10px;
+    }
+.signup-body p{
+    margin: 12px;
+}
+.signup-body p label{
+    display: block;
+    font-size: 1.1rem;
+    margin-left: 5px;
+  
+   
+}
+.signup-body p input{
+    width: 90%;
+   margin-top: 8px;
+    padding: 9px;
+    border-radius:3px;
+    border:1px ridge rgb(235, 65, 65);
+    margin-left: 5px;
+    font-size: 1rem;
+    font-family: Verdana;
+    
+}
+/* input:focus {
+    border: 3px solid rgb(10, 55, 190);
+  } */
+
+   
+
+.signup-body p input[type="submit"]{
+    width: 42%;
+    background-color: rgb(222, 37, 37);
+    border: none;
+    border-radius: 4px;
+    color: #f9f6f6;
+    position: relative;
+    left: 94px;
+    margin-top: 13px;
+    padding: 9px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.signup-body p input[type="password"]{
+    letter-spacing: 0.125rem;
+}
+
+.signup-body p input[type="submit"]:hover{
+    background-color: rgb(248, 11, 11);
+}
+.signup-footer{
+text-align: center;
+margin: 4px;
+}
+.signup-footer a{
+    color: crimson;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius:75px;
+    background: linear-gradient(to left ,#ffffff,#ffffffaa);
+}
+.smallcircle{
+    width: 100px;
+    height: 100px;
+    border-radius:50px;
+    background: linear-gradient(to left ,#ffffff,#ffffffaa);
+    position: absolute;
+    bottom: 52px;
+    left: 33rem;
+}
+.c1 {
+    position: absolute;
+    top: 70px;
+    left:100px;
+}
+.c2{
+    position: absolute;
+    bottom: 70px;
+    right: 30px;
+}
